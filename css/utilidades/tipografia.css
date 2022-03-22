@@ -1,0 +1,75 @@
+.p-sb-64 {
+  font: 600 4rem/112% "Poppins", sans-serif;
+}
+
+.p-sb-36 {
+  font: 600 2.25rem/133% "Poppins", sans-serif;
+}
+
+.p-sb-24 {
+  font: 600 1.5rem/150% "Poppins", sans-serif;
+}
+
+.p-sb-18 {
+  font: 600 1.125rem/133% "Poppins", sans-serif;
+}
+
+.U-p-m-24 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 133%;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.p-m-18 {
+  font: 500 1.125rem/133% "Poppins", sans-serif;
+}
+
+.U-p-m-16 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.p-m-12 {
+  font: 500 0.75rem/133% "Poppins", sans-serif;
+}
+
+.U-r-m-36 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 133%;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.U-r-m-24 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 1, 5rem;
+  line-height: 133%;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.r-m-18 {
+  font: 500 1.125rem/133% "Roboto", sans-serif;
+}
+
+.r-r-24 {
+  font: 400 1, 5rem/150% "Roboto", sans-serif;
+}
+
+.r-r-20 {
+  font: 400 1.25rem/160% "Roboto", sans-serif;
+}
+
+.r-r-16 {
+  font: 400 1rem/125% "Roboto", sans-serif;
+}
