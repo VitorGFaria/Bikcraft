@@ -30,3 +30,23 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.link {
+  display: inline-block;
+  color: var(--p1);
+  font: 500 24px/32px "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5%;
+}
+
+.link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: currentColor;
+}
+
+.link:hover {
+  color: var(--w);
+}

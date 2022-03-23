@@ -1,0 +1,99 @@
+.tecnologia-bg {
+  background-color: var(--b);
+  box-shadow: inset 0 48px var(--w), inset 0 -48px var(--w);
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.tecnologia-conteudo {
+  padding-top: 128px;
+  padding-bottom: 116px;
+}
+
+.tecnologia-conteudo > span {
+  display: block;
+  padding-bottom: 20px;
+  color: var(--c6);
+}
+
+.tecnologia-conteudo h2 {
+  color: var(--c2);
+  padding-bottom: 32px;
+}
+
+.tecnologia-conteudo > p {
+  padding-bottom: 24px;
+  color: var(--c5);
+}
+
+.tecnologia-conteudo a {
+  padding-bottom: 80px;
+}
+
+.tecnologia-vantagens {
+  display: flex;
+  gap: 40px;
+}
+
+.tecnologia-vantagens img {
+  width: 25px;
+  padding-bottom: 8px;
+}
+
+.tecnologia-vantagens h3 {
+  color: var(--c2);
+  padding-bottom: 16px;
+  width: max-content;
+}
+
+.tecnologia-vantagens p {
+  color: var(--c5);
+}
+
+.tecnologia-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+@media (max-width: 1200px) {
+  .tecnologia-conteudo h2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .tecnologia-conteudo h2 {
+    font-size: 32px;
+  }
+  .tecnologia-conteudo > p {
+    font-size: 16px;
+  }
+  .tecnologia-imagem img {
+    display: none;
+  }
+  .tecnologia-conteudo a {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tecnologia-vantagens {
+    flex-direction: column;
+  }
+}
