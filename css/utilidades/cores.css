@@ -19,3 +19,58 @@
   --p1: #ffbb00;
   --grad: linear-gradient(#ffbf00, #f2a60c);
 }
+
+.b {
+  color: var(--b);
+}
+.c11 {
+  color: var(--c11);
+}
+.c10 {
+  color: var(--c10);
+}
+.c9 {
+  color: var(--c9);
+}
+.c8 {
+  color: var(--c8);
+}
+.c7 {
+  color: var(--c7);
+}
+.c6 {
+  color: var(--c6);
+}
+.c5 {
+  color: var(--c5);
+}
+.c4 {
+  color: var(--c4);
+}
+.c3 {
+  color: var(--c3);
+}
+.c2 {
+  color: var(--c2);
+}
+.w {
+  color: var(--w);
+}
+.p5 {
+  color: var(--p5);
+}
+.p4 {
+  color: var(--p4);
+}
+.p3 {
+  color: var(--p3);
+}
+.p2 {
+  color: var(--p2);
+}
+.p1 {
+  color: var(--p1);
+}
+.grad {
+  color: var(--grad);
+}

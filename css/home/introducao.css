@@ -1,6 +1,5 @@
 .introducao-bg {
   background-color: var(--b);
-  color: var(--w);
   box-shadow: inset 0 -120px var(--w);
 }
 
@@ -23,14 +22,11 @@
 
 .introducao-conteudo h1 {
   margin-bottom: 48px;
-  line-height: 112%;
-  color: var(--c2);
 }
 
 .introducao-conteudo p {
   margin-bottom: 24px;
   line-height: 160%;
-  color: var(--c5);
 }
 
 @media (max-width: 1200px) {
