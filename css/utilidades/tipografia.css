@@ -52,7 +52,7 @@
 .U-r-m-24 {
   font-family: "Roboto";
   font-weight: 500;
-  font-size: 1, 5rem;
+  font-size: 1.5rem;
   line-height: 133%;
   letter-spacing: 0.015em;
   text-transform: uppercase;
@@ -63,7 +63,7 @@
 }
 
 .r-r-24 {
-  font: 400 1, 5rem/150% "Roboto", sans-serif;
+  font: 400 1.5rem/150% "Roboto", sans-serif;
 }
 
 .r-r-20 {
@@ -72,4 +72,8 @@
 
 .r-r-16 {
   font: 400 1rem/125% "Roboto", sans-serif;
+}
+
+.m-bi-36 {
+  font: 900 2.25rem/133% "Merriweather", sans-serif;
 }
