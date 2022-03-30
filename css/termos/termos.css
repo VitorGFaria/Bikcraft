@@ -1,0 +1,28 @@
+.termos {
+  padding: 120px 0px;
+}
+
+.termos h2 {
+  margin-bottom: 20px;
+}
+
+.termos p + h2 {
+  margin-top: 20px;
+}
+
+.termos p {
+  padding-bottom: 20px;
+  max-width: 660px;
+}
+
+@media (max-width: 1200px) {
+  .termos {
+    padding: 120px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .termos {
+    padding: 60px 20px;
+  }
+}

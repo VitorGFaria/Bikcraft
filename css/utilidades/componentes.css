@@ -62,3 +62,37 @@
 .link:hover {
   color: var(--w);
 }
+
+/* titulo paginas internas */
+
+.titulo-bg {
+  background-color: var(--c11);
+  padding: 60px 0px;
+}
+
+.titulo p {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1200px) {
+  .titulo h1 {
+    font-size: 48px;
+  }
+  .titulo p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding: 40px 0px;
+  }
+  .titulo h1 {
+    font-size: 32px;
+  }
+  .titulo p {
+    font-size: 16px;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
