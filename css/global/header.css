@@ -17,6 +17,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  margin: 16px 0px;
 }
 
 .header-menu a {
