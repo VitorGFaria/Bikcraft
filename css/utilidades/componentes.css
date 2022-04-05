@@ -115,3 +115,10 @@
     font-weight: 400;
   }
 }
+
+/* titulo bicicleta interna */
+@media (max-width: 800px) {
+  #bicicleta .titulo p {
+    text-transform: uppercase;
+  }
+}
