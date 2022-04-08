@@ -1,5 +1,6 @@
 .introducao-bg {
-  background-color: var(--b);
+  background: var(--b) url(../../estilos/decs-otm/bottom-left.svg) no-repeat
+   bottom 160px left 20px;
   box-shadow: inset 0 -120px var(--w);
 }
 

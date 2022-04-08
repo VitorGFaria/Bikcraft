@@ -15,13 +15,15 @@
 }
 
 .contato-dados {
-  background-color: var(--b);
   border-radius: 5px 0 0 5px;
+  background: var(--b) url(../../estilos/decs-otm/bottom-left.svg) no-repeat
+    bottom 20px left 20px;
 }
 
 .contato-formulario {
-  background-color: var(--w);
   border-radius: 0 5px 5px 0;
+  background: var(--w) url(../../estilos/decs-otm/bottom-right.svg) no-repeat
+    bottom 20px right 20px;
 }
 
 .contato-dados h2 {
@@ -83,6 +85,7 @@
   }
   .contato-dados {
     border-radius: 5px 5px 0 0;
+    background: var(--b)
   }
   .contato-formulario {
     border-radius: 0px 0px 5px 5px;

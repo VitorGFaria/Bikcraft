@@ -91,6 +91,11 @@
   padding: 60px 0px;
 }
 
+.titulo {
+  background: url(../../estilos/decs-otm/top-right.svg) no-repeat
+    top 0px right 40px;
+}
+
 .titulo p {
   margin-bottom: 8px;
 }
