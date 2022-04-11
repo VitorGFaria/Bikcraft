@@ -13,6 +13,7 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
+    <script>document.documentElement.classList.add('js');</script>
   </head>
   <body id="seguros">
     <header class="header-bg b">
@@ -46,7 +47,7 @@
             <li> Suporte 8h às 18h</li>
             <li>Cobertura Estadual</li>
           </ul>
-          <a class="botao secundario" href="./orcamento.html">Inscreva-se</a>
+          <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
         </div>
         <div class="seguros-item">
           <h3 class="p-sb-36 p2">OURO</h3>
@@ -59,7 +60,7 @@
             <li>Desconto em Parceiros</li>
             <li>Acesso ao Clube Bikcraft</li>
           </ul>
-          <a class="botao" href="orcamento.html">Inscreva-se</a>
+          <a class="botao" href="orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
         </div>
       </div>
     </main>
@@ -107,32 +108,32 @@
       <h2 class="p-sb-64 c11">Perguntas frequentes<span class="ponto-final">.</h2>
       <dl>
         <div>
-          <dt class="p-m-18 c11">Qual forma de pagamento vocês aceitam?</dt>
-          <dd class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
+          <dt><button aria-controls="pergunta1" aria-expanded="false" class="p-m-18 c11">Qual forma de pagamento vocês aceitam?</button></dt>
+          <dd id="pergunta1" class="r-r-16 c9 ativo">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
         </div>
         <div>
-          <dt class="p-m-18 c11">Como posso entrar em contato?</dt>
-          <dd class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
+          <dt><button aria-controls="pergunta2" aria-expanded="false" class="p-m-18 c11">Como posso entrar em contato?</button></dt>
+          <dd id="pergunta2" class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
         </div>
         <div>
-          <dt class="p-m-18 c11">Vocês possuem algum desconto?</dt>
-          <dd class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
+          <dt><button aria-controls="pergunta3" aria-expanded="false" class="p-m-18 c11">Vocês possuem algum desconto?</button></dt>
+          <dd id="pergunta3" class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
         </div>
         <div>
-          <dt class="p-m-18 c11">Qual a garantia que possuo?</dt>
-          <dd class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
+          <dt><button aria-controls="pergunta4" aria-expanded="false" class="p-m-18 c11">Qual a garantia que possuo?</button></dt>
+          <dd id="pergunta4" class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
         </div>
         <div>
-          <dt class="p-m-18 c11">Posso parcelar no boleto?</dt>
-          <dd class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
+          <dt><button aria-controls="pergunta5" aria-expanded="false" class="p-m-18 c11">Posso parcelar no boleto?</button></dt>
+          <dd id="pergunta5" class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
         </div>
         <div>
-          <dt class="p-m-18 c11">Quantas trocas posso fazer ao ano?</dt>
-          <dd class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
+          <dt><button aria-controls="pergunta6" aria-expanded="false" class="p-m-18 c11">Quantas trocas posso fazer ao ano?</button></dt>
+          <dd id="pergunta6" class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
         </div>
         <div>
-          <dt class="p-m-18 c11">Qual bikcraft devo escolher para o meu tamanho?</dt>
-          <dd class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
+          <dt><button aria-controls="pergunta7" aria-expanded="false" class="p-m-18 c11">Qual bikcraft devo escolher para o meu tamanho?</button></dt>
+          <dd id="pergunta7" class="r-r-16 c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos PIX e Boleto através do PagSeguro</dd>
         </div>
       </dl>
     </article>
@@ -172,5 +173,6 @@
         <p  class= "r-r-20 c6">Bikcraft © Alguns direitos reservados</p>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
